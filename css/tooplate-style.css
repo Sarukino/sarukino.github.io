@@ -53,6 +53,11 @@ h1, h2, p, i, address, .tm-text-white { color: white; }
     align-items: center;
     justify-content: center;
 }
+.tm-flex-justified {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
 
 .tm-about,
 .tm-contact {
@@ -170,6 +175,10 @@ address { font-style: normal; }
     width: 220px;
     height: 220px;    
 }
+.tm-head-item img {
+    width: 300px;
+    height: 300px;    
+}
 
 @media (max-width: 940px) {
     .filters-button-group { text-align: left; }
@@ -190,6 +199,9 @@ address { font-style: normal; }
 
 @media (max-width: 545px) {
     .tm-about { flex-direction: column; }
+}
+@media (max-width: 500px) {
+    .tm-abouta { flex-direction: column; }
 }
 
 @media (max-width: 489px) {
